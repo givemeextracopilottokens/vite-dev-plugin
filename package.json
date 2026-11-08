@@ -16,11 +16,13 @@
       "types": "./build/index.d.mts"
     }
   },
+  "peerDependencies": {
+    "vite": "^8.3.6"
+  },
   "devDependencies": {
     "@types/node": "^26.6.6",
     "prettier": "^3.9.10",
     "tsdown": "^0.23.7",
-    "typescript": "^7.0.2",
-    "vite": "^8.3.6"
+    "typescript": "^7.0.2"
   }
 }
